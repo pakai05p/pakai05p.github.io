@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+h1{
+    font-family: 'Kanit';
+    font-size: 35px;  
+}
+h3{
+    font-family: 'Raleway';
+    text-decoration: underline;
+}
+    
+p{
+    font-family: 'Roboto';
+    font-size: larger;
+    margin: 5px;
+}
+
+li {
+    font-family: 'Roboto';
+    margin-top: 5px;
+}
+
+#étlap{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+}
+
+.típus{
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+
+#menüsáv{
+    margin-left: 25%;
+}
+
+.menuitem{
+    border: double;
+    width: 20%;
+    background-color: gold;
+}
+
+.offersimg{
+    width: 150pt;
+}
+
+.container{
+    border:gray, solid ;
+    box-shadow: grey 0 0 10px;
+    margin:25px 20%;
+    width: 60%;
+}
