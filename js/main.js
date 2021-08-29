@@ -34,3 +34,14 @@ function delivery(finalAmount) {
          showAmount.innerHTML =finalAmount}
 }
 
+//add element
+let helptext = document.createElement ("small")
+helptext.classname = "form-text text-muted"
+helptext.innerHTML = "Ügyeljen az adatok pontosságára"
+console.log (helptext)
+
+let parent = document.querySelector("div#comment")
+parent.appendChild(helptext)
+
+//remove
+parent.removeChild (helptext)

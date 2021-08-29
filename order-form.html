@@ -108,7 +108,7 @@
                                 <label for="Cím">Cím*</label>
                                 <input type="text" id="Cím" placeholder="Próba város Teszt utca 9" name="Cím">
                             </div>
-                            <div>
+                            <div id = "comment">
                                 <label for="Megjegyzés">Megjegyzés</label>
                                 <textarea name="Megjegyzés" placeholder="Kapucsengő, egyéb üzenetek" id="Megjegyzés"
                                 rows="5"></textarea>
@@ -162,7 +162,7 @@
                             Fizetendő: <span class="showamount"> <strong> 0 </strong></span> Forint
                         </div>
                         <div class="form-group">
-                        <input onclick="calc ();" class="btn btn-primary" style="margin-top: 10px;" type="button"
+                        <input  class="btn btn-primary" style="margin-top: 10px;" type="submit" onclick="calc()"
                         value="Rendelés leadása">
                     </div>
                 </form>
@@ -170,7 +170,7 @@
             <div class="col-4"></div>
         </div>
     </div>
-    <script src="/js/scope.js"></script>
+    <script src="/js/events.js"></script>
     <script src="/js/algo.js"></script>
     <script src="/js/weather.js"></script>
     <script src="/js/main.js"></script>

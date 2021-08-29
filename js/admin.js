@@ -30,6 +30,7 @@ let users = [
         cím: "8475 Nagymaros kis tér 3",
     }
 ]
+
 function nevek (){
     let nameFields=document.querySelectorAll(".name")
 for (i=0; i<users.length; i++) {
@@ -37,15 +38,18 @@ for (i=0; i<users.length; i++) {
 }
 email(), cím()
 }
+
 function email (){
 let emailFields=document.querySelectorAll(".email")
 for (i=0; i<users.length; i++) {
     emailFields[i].innerHTML = users[i].email;
 }
 }
+
 function cím (){
 let adressFields=document.querySelectorAll(".adress")
 for (i=0; i<users.length; i++) {
     adressFields[i].innerHTML = users[i].cím;
 }
 }
+
