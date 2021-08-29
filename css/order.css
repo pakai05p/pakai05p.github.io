@@ -1,0 +1,39 @@
+.sza { 
+    border: 2px black double;
+    border-bottom: dotted;
+    padding: 15px;
+}
+.ma { 
+    border: 2px black double;
+    border-top: dotted;
+    padding: 15px;
+}
+legend { 
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid black 2px double;
+    border: 2px black double;
+    border-top:none ;
+    border-bottom: none;
+    margin-bottom: 0px;  
+background-color: #00ff00;
+}
+form {
+    text-align: center ;
+}
+h1{ margin: 10px; 
+    text-align: center;
+    
+}
+label {
+    margin-top: 5px
+}
+input{ 
+    margin-bottom: 5px;
+}
+#order{
+    background-color: gray;
+}
+body{
+    background-color: green;
+}

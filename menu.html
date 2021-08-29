@@ -10,12 +10,54 @@
     <title>Étlap</title>
 </head>
 
-<body>
+<body onload="temperatureShow(); offerShow (); temperatureMinimum(); temperatureMinimum(); temperatureMaximum(); temperatureAverege();">
+    <div id="widget" class="conatiner">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-2">
+                <select name="days" id="days">
+                    <option value="0">Hétfő</option>
+                    <option value="1" selected>Kedd</option>
+                    <option value="2">Szerda</option>
+                    <option value="3">Csütörtök</option>
+                    <option value="4">Péntek</option>
+                    <option value="5">Szombat</option>
+                    <option value="6">Vasárnap</option>
+                </select>
+                <input onclick="temperatureShow ()" type="button" class="btn, btn-info" value="Megnézem">
+            </div>
+            <div class="col-2">
+                <small>Mai ajánlatunk:</small>
+                <div id="offerShow"> Semmi</div>
+            </div>
+            <div class="col-2">
+                <small>Napi hőmérséklet</small>
+                <Div id="tempShow">0 °C</Div>
+            </div>
+            <div><div class="col-3"></div></div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-2">
+                <div>Minimum hőmérséklet:</div>
+                <div id="minimumTemperature">0</div>
+            </div>
+            <div class="col-2">
+                <div>Átlaghőmérséklet:</div>
+                <div id="avarageTemperature">0</div>
+            </div>
+            <div class="col-2">
+                <div>Maximum hőmérséklet:</div>
+                <div id="maximumTemperature">0</div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
     <table id="menüsáv">
         <tr>
             <td class="menu"><a href="/index.html">Elérhetőségünk</a></td>
             <td class="menu"><a href="/menu.html">Étlap</a></td>
-            <td class="menu"><a href="/orders.html">Rendelés</a></td>
+            <td class="menu"><a href="/order-form.html">Rendelés</a></td>
             <td class="menu"><a href="/offers.html">Akciók</a></td>
         </tr>
     </table>
@@ -146,6 +188,8 @@
             </tr>
         </tbody>
     </table>
+    <script src="/js/weather.js"></script>
+
 </body>
 
 </html>

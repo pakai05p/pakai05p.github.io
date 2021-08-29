@@ -64,3 +64,8 @@ li {
 body {
     background-color: 3DB2FF;
 }
+
+#widget{
+    background-color: red; 
+    margin-top: 15pt;
+}
